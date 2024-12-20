@@ -1,0 +1,160 @@
+
+
+header{
+    display: flex;
+    justify-content: space-around;
+}
+header nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    li{
+        a{
+            text-decoration: none;
+            color: grey;
+        }
+    }
+}
+.bloc1{
+    h2{color: #03CCB1;}
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bloc2{
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    gap: 20px;
+    line-height: 30px;
+    color: grey;
+}
+.bloc3{
+    display: flex;
+    justify-content: center;
+gap: 30px;
+margin-top: 50px;
+
+
+}
+.bloc3-1{
+    background-color: #03CCB1;
+    color: white;
+    padding: 50px;
+    border-radius: 10px;
+}
+.bloc3-2{
+    background-color: #3C83DF;
+    color: white;
+    padding: 50px;
+    border-radius: 10px;
+}
+.bloc3-3{
+    background-color: #1B2734;
+    color: white;
+    padding: 50px;
+    border-radius: 10px;
+}
+select{
+  border: none;
+  background: none;
+  text-decoration: underline;
+  color: white;
+}
+option{
+    color: black;
+}
+.bloc4{
+   display: flex;
+   justify-content: space-around;
+   margin: 50px;
+}
+.bloc4-1{
+    color: #03CCB1;
+    
+}
+.bloc4-2{
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    color: grey;
+    
+}
+.bloc5{
+    display: flex;
+    background-color: #DBF6F7;
+    justify-content: space-around;
+   
+}
+.bloc5-1{
+    h1{color: #03CCB1;}
+    h4{color: grey;}
+    img{
+       padding: 90px; 
+    }
+}
+.bloc5-2{
+    color: grey;
+    display: flex;
+   gap: 20px;
+
+}
+.test{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.bloc6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    line-height: 30px;
+
+}
+.bloc6-1{
+    color: #03CCB1;
+}
+.bloc6-2{
+    color: grey
+}
+.bloc7{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   
+    place-items: center; 
+    h3{color: grey;}
+    img{
+        border-radius:  10px  10px  0 0;
+    }
+    button{
+       padding: 7px;
+       background-color: #3C83DF;
+       margin-top: 13px;
+       border: none;
+       border-radius: 5px;
+       color: white;
+    }
+}
+.test1{
+    display: flex;
+    justify-content: space-around;
+}
+.bloc8{
+    display: flex;
+    justify-content: center;
+    button{
+        background-color: #3C83DF;
+        border-radius: 5px;
+        border: none;
+        padding: 10px;
+        color: white;
+    }
+}
+.footer{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
